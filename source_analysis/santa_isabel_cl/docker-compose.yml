@@ -1,0 +1,10 @@
+
+version: '3.8'
+
+services:
+  santa_isabel_cl:
+    build:
+      context: .
+    container_name: santa_isabel_cl
+    volumes:
+      - ./files:/app/files
